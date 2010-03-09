@@ -1,5 +1,6 @@
 syntax: glob
 
+*.wx64fsl
 *.wx32fsl
 .\#*
 *.bak
