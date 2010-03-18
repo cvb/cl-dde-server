@@ -27,7 +27,7 @@
 			cb-wnd-extra 0 
 			hinstance (get-module-handle (make-pointer 0))
 			hicon (make-pointer 0)
-			hcursor (load-cursor (make-pointer 0) IDC-ARROW)
+			hcursor (load-cursor (make-pointer 0) (make-pointer  IDC-ARROW))
 			hbr-background (get-stock-object 0)
 			lpsz-menu-name (make-pointer 0)
 			lpsz-class-name cname
