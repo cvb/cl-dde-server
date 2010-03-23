@@ -49,7 +49,7 @@
 		     (data-len (mem-ref data-len :ulong)))
 		 (dde-get-data hdata my-ptr data-len 0)
 		 (dde-unaccess-data hdata)
-		 (funcall *callback-function* hsz1-lisp my-ptr)
+		 (funcall *callback-function* hsz1-lisp my-ptr data-len)
 		 (make-pointer dde-fack)))))))
     (t (progn (format t "Recieved! ~a~%" utype) (make-pointer 0)))))
 
