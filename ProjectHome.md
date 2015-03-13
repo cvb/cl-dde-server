@@ -1,0 +1,1 @@
+Now can handle only poke requests, I don't need others, but it can be easily enhanced for any other by adding them to callback.
